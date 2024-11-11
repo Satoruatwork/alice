@@ -7,11 +7,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = 22205067
-API_HASH = "d8a1eaf893ec633545a022534be57f28"
+API_ID = 12089203
+API_HASH = "7d85eb5ce156d35f22500fd8ef43e7c2"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "7741619617:AAFdHOKLzwpfxDDKWqEXAJMkiiq-g1Ho3B8"
+BOT_TOKEN = "7225094933:AAEkwl5Qs6GDmoSy7KUnBlB62iR_6189GP8"
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = mongodb+srv://tusharsingh3105:tusharsingh3105@cluster0.5onlx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
@@ -19,7 +19,7 @@ MONGO_DB_URI = mongodb+srv://tusharsingh3105:tusharsingh3105@cluster0.5onlx.mong
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = -1002291920255
+LOG_GROUP_ID = -1002465782620
 
 # Get this value from @ultron2_robot on Telegram by /id
 OWNER_ID = 1459770505
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = "https://t.me/katana_bot_support"
-SUPPORT_GROUP = "https://t.me/katana_support_official"
+SUPPORT_CHANNEL = "https://t.me/katana_fed"
+SUPPORT_GROUP = "https://t.me/katana_fed"
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = "BQFS0osAoyh6c0tqdy8Ma1C2W-lVrqson-OPZa71PexEckr4QELNRoUA7KPr_3QU-s8Xe-XBpZxhqi4CNU_Etb10csGu3AwZNEZecbdScz5KImstkTpMo2KCm5Tbi_ZoLBApgVmq21qUY_kNNgaJZ2ekMG0nfFzNmI7MZ4YKfv8FmzgSThMpS1c6QWgXL0kTVmMPN2QaFhND9-VIyb5wcXdI9SInoksJls3HarHKLHa39bzF4zGhdkSx1hWSohj9FoRFtrU6HlufpMO4f4LG5tXJpv1yETL9mcSHfnQcSHJsV0tJJ16VRAwO9O8G-yGkFUz4ZIQATUsvOJVAcp0MitwMZI_8ugAAAAGz1Y56AA"
+STRING1 = "BQC4d3MAUPxC8qVTl_o5S1QoNDyLsEU3uzFz8YFvle01h9Ji67tubQNfvRf7UvVbyZdaaxJwR3XpjlR8V0e7C2mLavAx0-2D_JMV9uS0pRI48ykxdvyD-vnjqLPxOPZEwI7_5Trd8S1sGT09zf2KIOE80kulzUFARqvk9AonYbQL6nH_c_QiuYB-C7-UeGtBcb8Gxawgrdo_wNfMokKhUgR8D2tOBkkO-uH5pTehSE3uFW7XDvB8dxap8CU81eYnxqNdf5d7g-bSchqe2YBFKBO1snw7JlKw0uXmrOjVHDjN1KSUjCCYgqW3WZ71IPj7TAWV75dN-mhhbcfrUc03iCArXgAAAAHNbe8SAA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
