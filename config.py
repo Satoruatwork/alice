@@ -11,15 +11,15 @@ API_ID = 12089203
 API_HASH = "7d85eb5ce156d35f22500fd8ef43e7c2"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "7225094933:AAEkwl5Qs6GDmoSy7KUnBlB62iR_6189GP8"
+BOT_TOKEN = "7041835456:AAGs-YwuA78Z6U_H_1gscDKUjjvSs_Xm9hw
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = mongodb+srv://tusharsingh3105:tusharsingh3105@cluster0.5onlx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGO_DB_URI = mongodb+srv://tusharsingh3105:<db_password>@cluster0.q3oby.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = -1002465782620
+LOG_GROUP_ID = -1002259121848
 
 # Get this value from @ultron2_robot on Telegram by /id
 OWNER_ID = 1459770505
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = "BQC4d3MAUPxC8qVTl_o5S1QoNDyLsEU3uzFz8YFvle01h9Ji67tubQNfvRf7UvVbyZdaaxJwR3XpjlR8V0e7C2mLavAx0-2D_JMV9uS0pRI48ykxdvyD-vnjqLPxOPZEwI7_5Trd8S1sGT09zf2KIOE80kulzUFARqvk9AonYbQL6nH_c_QiuYB-C7-UeGtBcb8Gxawgrdo_wNfMokKhUgR8D2tOBkkO-uH5pTehSE3uFW7XDvB8dxap8CU81eYnxqNdf5d7g-bSchqe2YBFKBO1snw7JlKw0uXmrOjVHDjN1KSUjCCYgqW3WZ71IPj7TAWV75dN-mhhbcfrUc03iCArXgAAAAHNbe8SAA"
+STRING1 = "BQC4d3MAS_8RuvMkixGpXMTNatybK2KnM_KVAsWM5_cXwTfhzxvHYf8b27HDUV7xPtggRhjPQuog2MJILfx5mVAcUrKOjuUijUVggKYMPTz9t0TMgXW9GVYNYWfnNa1XIInn8yPQRbu5_NNS-wJjy8bNEXoRgYkhTDxBtsqLasw9RshPjnbniySdOQc8uo34ZVuU6F5t0_q1OdHuDdncRpL6oks33Um3ms-BPUqUgya4VvdGnr8a3WHt1dA2sUei5C-WfPUz_FsjyabhOFjk3A_HRetTzLOcJaANaMOYkNiwsG0QNgBYftL0GsVYNZv53Gqi5o5IgT1hFcH9FP-Um50zXZs6NAAAAAHNbe8SAA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -79,9 +79,9 @@ confirmer = {}
 
 START_IMG_URL = "https://graph.org/file/d703658381faaf1b9ee81-a335252abfb1fd0953.jpg"
 
-PING_IMG_URL = "https://graph.org/file/d703658381faaf1b9ee81-a335252abfb1fd0953.jpg"
+PING_IMG_URL = "https://envs.sh/81m.jpg"
 
-PLAYLIST_IMG_URL = "https://graph.org/file/763a841a2ad5cbb1e2fc5.jpg"
+PLAYLIST_IMG_URL = "https://envs.sh/81x.jpg"
 STATS_IMG_URL = "https://graph.org/file/f586172fe40a0b5d0b0df.jpg"
 TELEGRAM_AUDIO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
 TELEGRAM_VIDEO_URL = "https://graph.org//file/2f7debf856695e0ef0607.png"
